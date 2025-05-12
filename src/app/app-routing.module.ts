@@ -95,11 +95,6 @@ const routes: Routes = [
     path: 'rekap',
     loadChildren: () => import('./rekap/rekap.module').then( m => m.RekapPageModule)
   },
-  {
-    path: 'test',
-    loadChildren: () => import('./test/test.module').then( m => m.TestPageModule)
-  },
-
 
 ];
 
